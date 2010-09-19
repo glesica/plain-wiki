@@ -2,7 +2,7 @@
 
 Author: George Lesica <glesica@gmail.com>
 
-Website: http://wellactually.net
+Website: [http://wellactually.net](http://wellactually.net "Website")
 
 Twitter: @glesica
 
@@ -14,7 +14,7 @@ This template is designed to produce a simple-looking, mobile-friendsly wiki wit
 * Content boxes
 * Page footer
 
-It uses the Less framework (http://lessframework.com/) to support mobile browsers. The page is automatically reformatted based on the size of the viewing window.
+It uses the [Less framework](http://lessframework.com/ "Less framework") to support mobile browsers. The page is automatically reformatted based on the size of the viewing window.
 
 ## Future
 
