@@ -19,6 +19,7 @@ if ($use_menu) {
     $menu_page = locate_page(tpl_getConf('menu_page_name'));
 }
 ?>
+<?php html_msgarea(); ?>
 <div id="__header">
     <div class="content">
         <div id="__sitetitle"><?php echo strip_tags($conf['title']); ?></div>
