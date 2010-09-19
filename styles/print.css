@@ -1,0 +1,16 @@
+#header, #footer {
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+#header {
+	border-bottom: 1px solid #000;
+}
+
+#footer {
+    border-top: 1px solid #000;
+}
+
+#sitemenu, #pagemenu, #infobar {
+    display: none;
+}

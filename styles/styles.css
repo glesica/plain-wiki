@@ -1,0 +1,241 @@
+/*
+    Styles for Plain Wiki Template for Dokuwiki
+    
+    by George Lesica <glesica@gmail.com>
+    http://wellactually.net
+*/
+
+/* basic typography */
+
+.normal, body {
+	font: 16px/1.5 'Cantarell', Helvetica, sans-serif;
+	font-color: #222;
+}
+
+a, a:visited {
+    color: #4096ee;
+}
+
+a:active, a:hover {
+    border-bottom: 1px dotted #222;
+}
+
+::selection 	 {background: rgb(255,255,0);}
+::-moz-selection {background: rgb(255,255,0);}
+
+/* headings */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Neuton', arial, serif;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+    color: #222;
+}
+
+.box h1 a, .box h2 a, .box h3 a, .box h4 a, .box h5 a {
+    color: #eee;
+}
+
+/* images */
+
+#__content img {
+    
+}
+
+/* lists */
+
+li.level2 {
+    padding-left: 12px;
+}
+
+li.level3 {
+    padding-left: 24px;
+}
+
+li.level4 {
+    padding-left: 36px;
+}
+
+li.level5 {
+    padding-left: 48px;
+}
+
+li.level6 {
+    padding-left: 60px;
+}
+
+.li {
+    display: inline;
+}
+
+/* pre */
+
+#__content pre {
+    font-family: 'Droid Sans Mono', monospace;
+    overflow: auto;
+    font-size: 80%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#__content pre.code {
+    padding: 6px;
+    background: none;
+    color: #222;
+    border: 1px solid #bbb;
+}
+
+/* table */
+#__content th {
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #222;
+    color: #eee;
+    font-size: 80%;
+	text-align: left;
+	padding: 6px 12px;
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+#__content td {
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 80%;
+	padding: 3px 6px;
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+/* detail page */
+
+.detail .image .caption {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    font-size: 80%;
+    border-bottom: 1px solid #bbb;
+}
+
+.detail .tags {
+    font-size: 80%;
+}
+
+.detail .tags dt {
+    font-weight: bold;
+}
+
+/* table of contents */
+
+.toc {
+    float: right;
+    margin: 0 0 12px 12px;
+}
+
+.toc * {
+    float: none;
+    margin: 0;
+}
+
+#toc__header {
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #222;
+    color: #eee;
+    font-size: 80%;
+	text-align: left;
+	padding: 3px 10px;
+	-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+#toc__header:hover {
+    background: #cc0000;
+}
+
+#toc__inside {
+    font-size: 80%;
+    padding: 12px;
+    border-bottom: 1px dotted #222;
+}
+
+#toc__toggle {
+    display: none;
+}
+
+/* login page */
+
+#dw__login input {
+    padding: 5px;
+    -moz-border-radius: 6px;
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+/* acl manager */
+
+#acl__detail, #acl__tree {
+    font-size: 80%;
+}
+
+#acl_manager .fn {
+    font-size: 80%;
+}
+
+#acl__tree, #acl__user {
+    border: 1px solid #bbb !important;
+}
+
+/* configuration manager */
+
+#config__manager fieldset {
+    background: none;
+}
+
+#config__manager td {
+    -moz-border-radius: 6px;
+    border-radius: 0px;
+    background: #fff;
+    font-size: 80%;
+	padding: 3px 6px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+/* edit form */
+
+#dw__editform .license {
+    font-size: 80%;
+}
+
+#tool__bar button {
+    padding: 1px 3px;
+}
+
+.picker {
+    border: 1px solid #222;
+    background: #eee;
+    padding: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+.picker button {
+    margin: 0;
+    padding: 0;
+    min-width: 20px;
+}
+
+/* general admin */
+
+#insitu__fn {
+    background: #fff;
+    border: 1px solid #222;
+    padding: 3px;
+    -moz-border-radius: 6px;
+    border-radius: 3px;
+    font-size: 80%;
+}

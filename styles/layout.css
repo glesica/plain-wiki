@@ -1,0 +1,247 @@
+/*
+    Layout Styles for Plain Wiki Template for Dokuwiki
+    
+    by George Lesica <glesica@gmail.com>
+    http://wellactually.net
+*/
+
+/*
+	Less Framework 2, version 2.0
+	by Joni Korpi
+	-----------------------------
+	http://lessframework.com
+*/
+
+/* 
+	Resets
+	------
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, video, object {
+	display: block;
+}
+
+a img {border: 0;}
+
+figure {position: relative;}
+figure img {width: 100%;}
+
+/*
+	Default 5-column, 768 px layout for iPads, netbooks, and IE
+	(All other layouts inherit styles from this layout)
+	-----------------------------------------------------------
+	1      2      3      4      5     
+	120px  264px  408px  552px  696px   (24px gutters)
+*/
+
+body {
+    background: #e8e8e8;
+}
+
+#__body {
+    margin: 0 auto;
+    padding: 0px 36px 0;
+    width: 696px;
+}
+
+.content {
+    width: 696px;
+    margin: auto;
+}
+
+ul, ol {list-style-position: inside;}
+
+/* header */
+#__header {
+    background: #000;
+    padding: 20px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+}
+
+#__sitetitle {
+    font-family: 'Vollkorn', arial, serif;
+    letter-spacing: 6px;
+    font-weight: normal;
+    color: #eee;
+    font-size: 24px;
+    float: left;
+}
+
+/* site menu */
+#__sitemenu * {
+    display:inline;
+}
+
+#__sitemenu {
+    margin-top: 6px;
+    float: right;
+}
+
+#__sitemenu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#__sitemenu li:last-child {
+    margin-right: 0;
+}
+
+#__sitemenu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #eee;
+}
+
+#__sitemenu li a:hover {
+    text-decoration: underline;
+}
+
+/* page menu */
+#__pagemenu {
+    margin-top: 24px;
+}
+
+#__pagemenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+#__pagemenu a {
+    text-decoration: none;
+    color: #eee;
+    padding: 3px 10px;
+    font-size: 80%;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #222;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+#__pagemenu a:hover {
+    background: #cc0000;
+}
+
+/* content */
+#__content {
+    margin-bottom: 24px;
+}
+
+#__content * {
+    max-width: 696px;
+    height: auto;
+}
+
+/* info bar */
+#__infobar .box {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    color: #eee;
+    font-size: 80%;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+	width: 264px;
+}
+
+.boxcontent {
+    margin: 12px;
+}
+
+/* footer */
+#__footer {
+    padding: 20px;
+    color: #eee;
+    background: #000;
+    font-size: 80%;
+    background: rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, .4);
+}
+
+/* 
+	2-column, 320 px layout for smartphones
+	---------------------------------------
+	1      2
+	120px  264px
+*/
+
+@media only screen and (max-width: 767px) {
+	
+	#sitetitle {
+	    border-bottom: 1px solid #eee;
+	}
+	
+	#__body {
+	    padding: 0px 24px 0;
+		width: 264px;
+	}
+	
+	#__sitetitle, #__sitemenu {
+	    float: none;
+	}
+
+    .normal, body {
+	    font: 16px/1.5 Helvetica, Arial, sans-serif;
+    }
+
+    .small, small {
+	    font-size: 13px;
+	    line-height: 18px;
+    }
+    
+    .content {
+	    width: 264px;
+	}
+	
+    #__content * {
+        max-width: 264px;
+    }
+    
+    .toc {
+        display: none;
+    }
+	
+}
+
+/* 
+	8-column, 1224 px layout for desktops and laptops
+	-------------------------------------------------------
+	1      2      3      4      5      6      7      8
+	120px  264px  408px  552px  696px  840px  984px  1128px
+*/
+
+@media only screen and (min-width: 1224px) {
+	
+	#__body {
+		padding: 0px 48px 0;
+		width: 1128px;
+	}
+	
+	.content {
+	    width: 1128px;
+	}
+	
+	#__content * {
+        max-width: 1128px;
+    }
+	
+}
