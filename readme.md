@@ -4,7 +4,7 @@ Author: George Lesica <glesica@gmail.com>
 
 Website: [http://wellactually.net](http://wellactually.net "Website")
 
-Twitter: @glesica
+Twitter: [@glesica](http://twitter.com/glesica "Twitter")
 
 ## About
 
@@ -15,6 +15,8 @@ This template is designed to produce a simple-looking, mobile-friendsly wiki wit
 * Page footer
 
 It uses the [Less framework](http://lessframework.com/ "Less framework") to support mobile browsers. The page is automatically reformatted based on the size of the viewing window.
+
+The Google font API is also used to provide neato fonts.
 
 ## Future
 
