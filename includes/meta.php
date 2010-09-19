@@ -17,7 +17,7 @@
 <!-- css and styling -->
 <meta name="viewport" content="initial-scale=1.0, width=device-width"/><!-- needed for Less framework -->
 <!-- fonts -->
-<link href='http://fonts.googleapis.com/css?family=Neuton:regular,bold' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Neuton:regular' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Vollkorn:regular,bold' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Cantarell:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>

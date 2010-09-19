@@ -8,7 +8,7 @@
 /* basic typography */
 
 .normal, body {
-	font: 16px/1.5 'Cantarell', Helvetica, sans-serif;
+	font: 16px/1.5 'Cantarell', sans-serif;
 	font-color: #222;
 }
 
@@ -26,7 +26,7 @@ a:active, a:hover {
 /* headings */
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Neuton', arial, serif;
+    font-family: 'Neuton', serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
