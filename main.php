@@ -21,13 +21,13 @@ if (!defined('DOKU_INC')) die();
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>
-		    <?php tpl_pagetitle(); ?> [<?php echo strip_tags($conf['title']); ?>]
-	    </title>
 		<!-- dokuwiki head -->
 		<?php tpl_metaheaders(); ?>
 		<?php require_once(dirname(__FILE__).'/includes/meta.php'); ?>
 		<?php require_once(dirname(__FILE__).'/includes/scripts.php'); ?>
+		<title>
+		    <?php tpl_pagetitle(); ?> [<?php echo strip_tags($conf['title']); ?>]
+	    </title>
 	</head>
 	<body>
 	    <!-- header -->
